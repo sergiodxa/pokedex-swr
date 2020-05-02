@@ -1,0 +1,24 @@
+{
+  "name": "swr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sergio Xalambrí",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "swr": "^0.2.0",
+    "tailwindcss": "^1.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "@types/react": "^16.9.34",
+    "typescript": "^3.8.3"
+  }
+}
