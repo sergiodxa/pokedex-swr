@@ -172,6 +172,7 @@ export default function Pokemon() {
       const { results } = data;
       return results.map((result) => (
         <Suspense
+          key={result.name}
           fallback={
             <Card className={getColorByType()}>
               <h2 className="text-2xl capitalize leading-none">
@@ -180,7 +181,7 @@ export default function Pokemon() {
             </Card>
           }
         >
-          <PokémonCard key={result.name} name={result.name} />
+          <PokémonCard name={result.name} />
         </Suspense>
       ));
     },
