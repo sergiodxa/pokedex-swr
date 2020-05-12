@@ -20,7 +20,7 @@ function SearchBox({ onSearch }) {
         className="bg-gray-200 py-2 px-4 rounded-full focus:outline-none focus:shadow-outline w-full text-base"
         type="search"
         name="pokemon"
-        placeholder="Pikachu"
+        placeholder="Ditto"
         value={query}
         onChange={(event) => setQuery(event.target.value)}
       />
