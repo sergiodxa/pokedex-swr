@@ -4,11 +4,11 @@ This project is an example Frontend application using showcasing how to use SWR 
 
 ## Stack
 
-- TypeScript
-- Next.js
-- SWR
-- Tailwind
-- Vercel
+- [TypeScript](https://www.typescriptlang.org)
+- [Next.js](https://nextjs.org)
+- [SWR](https://swr.now.sh)
+- [Tailwind](https://tailwindcss.com)
+- [Vercel](https://vercel.com)
 
 ## Setup
 
