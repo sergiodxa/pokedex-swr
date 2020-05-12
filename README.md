@@ -1,5 +1,7 @@
 # Pokedex with SWR
 
+This project is an example Frontend application using showcasing how to use SWR for data fetching.
+
 ## Stack
 
 - TypeScript
