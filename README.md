@@ -2,6 +2,7 @@
 
 ## Stack
 
+- TypeScript
 - Next.js
 - SWR
 - Tailwind
